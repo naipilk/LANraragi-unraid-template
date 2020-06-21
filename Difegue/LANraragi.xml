@@ -33,12 +33,12 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/cache/appdata/lanraragi/</HostDir>
+      <HostDir>/mnt/cache/appdata/lanraragi/content</HostDir>
       <ContainerDir>/home/koyomi/lanraragi/content</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/cache/appdata/lanraragi/database/</HostDir>
+      <HostDir>/mnt/cache/appdata/lanraragi/database</HostDir>
       <ContainerDir>/home/koyomi/lanraragi/database</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
