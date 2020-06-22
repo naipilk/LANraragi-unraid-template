@@ -6,7 +6,7 @@
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
-  <Privileged>true</Privileged>
+  <Privileged>false</Privileged>
   <Support>https://discord.gg/aRQxtbg</Support>
   <Project>https://github.com/Difegue/LANraragi</Project>
   <Overview>Web interface and reader for storage of comics/manga on NAS.</Overview>
