@@ -9,3 +9,4 @@ LANraragi Docker template for the NAS/server OS Unraid.
 4. Selected the Docker image from the Template dropdown.
 5. Edit the fields to your liking.
 6. Click "Create" and the Docker container will be created and started.
+7. Open the web-ui and follow the documentation to get started; https://sugoi.gitbook.io/lanraragi/basic-operations/first-steps.
