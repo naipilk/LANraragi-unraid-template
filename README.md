@@ -12,4 +12,4 @@ LANraragi Docker template for the NAS/server OS Unraid.
 7. Open the web-ui and follow the documentation to get started; https://sugoi.gitbook.io/lanraragi/basic-operations/first-steps.
 
 
-[!(https://raw.githubusercontent.com/naipilk/LANraragi-unraid-template/master/icons/gif4.gif)](https://files.catbox.moe/er0suw.webm)
+[![alt text](https://raw.githubusercontent.com/naipilk/LANraragi-unraid-template/master/icons/gif4.gif)](https://files.catbox.moe/er0suw.webm "")
