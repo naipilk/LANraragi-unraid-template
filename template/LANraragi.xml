@@ -33,12 +33,12 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/cache/appdata/lanraragi/content</HostDir>
+      <HostDir>/mnt/cache/appdata/lanraragi/content/</HostDir>
       <ContainerDir>/home/koyomi/lanraragi/content</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/cache/appdata/lanraragi/database</HostDir>
+      <HostDir>/mnt/cache/appdata/lanraragi/database/</HostDir>
       <ContainerDir>/home/koyomi/lanraragi/database</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
@@ -46,6 +46,6 @@
   <Environment/>
   <Labels/>
   <Config Name="Web-IU port" Target="3000" Default="3000" Mode="tcp" Description="Default web-ui port: 3000" Type="Port" Display="always" Required="true" Mask="false">3000</Config>
-  <Config Name="Content directory" Target="/home/koyomi/lanraragi/content" Default="" Mode="rw" Description="Directory with all your content (comics, manga etc)." Type="Path" Display="always" Required="true" Mask="false">/mnt/cache/appdata/lanraragi/</Config>
+  <Config Name="Content directory" Target="/home/koyomi/lanraragi/content" Default="" Mode="rw" Description="Directory with all your content (comics, manga etc)." Type="Path" Display="always" Required="true" Mask="false">/mnt/cache/appdata/lanraragi/content/</Config>
   <Config Name="Database directory" Target="/home/koyomi/lanraragi/database" Default="" Mode="rw" Description="Directory for the LANraragi database(as database.rdb)." Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/appdata/lanraragi/database/</Config>
 </Container>
