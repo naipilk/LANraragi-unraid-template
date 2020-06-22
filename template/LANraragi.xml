@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container version="2">
+  <Name>LANraragi</Name>
+  <Repository>difegue/lanraragi:latest</Repository>
+  <Registry>https://hub.docker.com/r/difegue/lanraragi/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>true</Privileged>
+  <Support>https://discord.gg/aRQxtbg</Support>
+  <Project>https://github.com/Difegue/LANraragi</Project>
+  <Overview>Web interface and reader for storage of comics/manga on NAS.</Overview>
+  <Category>Tools: MediaServer:Books Network:Web</Category>
+  <WebUI>http://[IP]:[PORT:3000]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/naipilk/LANraragi-unraid-template/master/icons/small_icon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1592780439</DateInstalled>
+  <DonateText>Buy a Coffee for the developer on Ko-Fi:</DonateText>
+  <DonateLink>https://ko-fi.com/lanraragi</DonateLink>
+  <Description>Web interface and reader for storage of comics/manga on NAS.</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>3000</HostPort>
+        <ContainerPort>3000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/lanraragi/content</HostDir>
+      <ContainerDir>/home/koyomi/lanraragi/content</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/lanraragi/database</HostDir>
+      <ContainerDir>/home/koyomi/lanraragi/database</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment/>
+  <Labels/>
+  <Config Name="Web-IU port" Target="3000" Default="3000" Mode="tcp" Description="Default web-ui port: 3000" Type="Port" Display="always" Required="true" Mask="false">3000</Config>
+  <Config Name="Content directory" Target="/home/koyomi/lanraragi/content" Default="" Mode="rw" Description="Directory with all your content (comics, manga etc)." Type="Path" Display="always" Required="true" Mask="false">/mnt/cache/appdata/lanraragi/</Config>
+  <Config Name="Database directory" Target="/home/koyomi/lanraragi/database" Default="" Mode="rw" Description="Directory for the LANraragi database(as database.rdb)." Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/appdata/lanraragi/database/</Config>
+</Container>
