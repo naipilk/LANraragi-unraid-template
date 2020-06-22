@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://discord.gg/aRQxtbg</Support>
   <Project>https://github.com/Difegue/LANraragi</Project>
-  <Overview>Web interface and reader for storage of comics/manga on NAS.</Overview>
+  <Overview>Web application for archival and reading of manga/doujinshi.</Overview>
   <Category>Tools: MediaServer:Books Network:Web</Category>
   <WebUI>http://[IP]:[PORT:3000]/</WebUI>
   <TemplateURL/>
@@ -20,7 +20,7 @@
   <DateInstalled>1592780439</DateInstalled>
   <DonateText>Buy a Coffee for the developer on Ko-Fi:</DonateText>
   <DonateLink>https://ko-fi.com/lanraragi</DonateLink>
-  <Description>Web interface and reader for storage of comics/manga on NAS.</Description>
+  <Description>Web application for archival and reading of manga/doujinshi. Lightweight and Docker-ready for NAS/servers.</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
