@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://discord.gg/aRQxtbg</Support>
   <Project>https://github.com/Difegue/LANraragi</Project>
-  <Overview>Web application for storing and reading manga/doujinshi.</Overview>
+  <Overview>Web application for storing and reading manga/doujinshi. Lightweight and Docker-ready for NAS/servers.</Overview>
   <Category>Tools: MediaServer:Books Network:Web</Category>
   <WebUI>http://[IP]:[PORT:3000]/</WebUI>
   <TemplateURL/>
