@@ -20,7 +20,7 @@
   <DateInstalled>1592872605</DateInstalled>
   <DonateText>Buy a Coffee for the developer on Ko-Fi:</DonateText>
   <DonateLink>https://ko-fi.com/lanraragi</DonateLink>
-  <Description>Web application for storing and reading of manga/doujinshi. Lightweight and Docker-ready for NAS/servers.</Description>
+  <Description>Web application for storing and reading manga/doujinshi. Lightweight and Docker-ready for NAS/servers.</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
